@@ -1,0 +1,124 @@
+h1 {
+    font-size: 50px;
+}
+
+.body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.name {
+    color: #F35B6D;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+
+.top {
+    background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.link {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, rgb(228,56,26) );
+    background-color: orangered;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700px;
+}
+
+#image {
+    width:100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius:50%;
+    background-image: url(img/download.png);
+    background-size: cover;
+    background-position: center;
+}
+h2 {
+    font-size: 40px;
+}
+p {
+    color: dimgray;
+    font-size: 25px;
+}
+
+.bottom {
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience {
+    width: 100%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    background: cornsilk;
+    margin-bottom: 240px;
+}
+
+#middle {
+    text-align: center;
+}
+
+.third-width {
+    width: 25%;
+    float: left;
+    padding: 5px;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+}
+.third-width img {
+    width: 60%;
+    height: 120px;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    padding: 40px;
+}
+
+.container {
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    margin-top: 350px;
+
+}
+
+
+.work {
+    position: absolute;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 550px;
+    bottom: 1px;
+    right: 58%;
+    color:white;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.container link {
+    right: 50%;
+}
